@@ -8,7 +8,7 @@
 
 /**
  *
- * main - determine if number is positive or negative
+ * main - Entry point 
  *
  * Description: assign a random number to variable n each time it is executed.
  *
