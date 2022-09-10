@@ -10,7 +10,7 @@
  *
  * main - determine if number is positive or negative
  *
- * Description: assign a random number to the variable n each time it is executed.
+ * Description: assign a random number to variable n each time it is executed.
  *
  * Return: Always 0 (Success)
  *
