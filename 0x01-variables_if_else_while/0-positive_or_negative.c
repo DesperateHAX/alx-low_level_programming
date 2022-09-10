@@ -7,8 +7,7 @@
 
 
 /**
- *
- * main - Entry point 
+ * main - entry point 
  *
  * Description: assign a random number to variable n each time it is executed.
  *
@@ -28,7 +27,6 @@ int main(void)
 
 
 		srand(time(0));
-
 		n = rand() - RAND_MAX / 2;
 		if (n == 0)
 			printf("%d is zero\n", n);
