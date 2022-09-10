@@ -7,7 +7,7 @@
 
 
 /**
- * main - entry point 
+ * main - entry point
  *
  * Description: assign a random number to variable n each time it is executed.
  *
