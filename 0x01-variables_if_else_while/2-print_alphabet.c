@@ -14,13 +14,11 @@
 
 int main(void)
 {
-	int i = 97;
+	char a;
 
-	while (i < 123)
-		putchar(i);
-		i++;
-	putchar(10);
-
+	for (a = 'a'; a <= 'z' ; a++)
+		putchar(a);
+	putchar('\n');
 	return(0);
 
 }
