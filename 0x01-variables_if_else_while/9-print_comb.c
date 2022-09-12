@@ -8,15 +8,21 @@
  */
 int main(void)
 {
-	int c;
+	int n = '0';
 
-	for (c = 48; c <= 57; c++)
-		putchar(c % 48) + '0');
-		if (c != 57)
+	while (n <= '9')
 
-		putchar(',');
-		putchar(' ');
+		putchar(n);
+		
+		if (n != '9')
 
+			putchar(',');
+			putchar(' ')
+
+
+		n++;
+
+		
 	putchar('\n');
 	return (0);
 }
