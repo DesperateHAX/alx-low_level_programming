@@ -2,21 +2,18 @@
 /**
  * print_sign - main function
  * @n: character to compare
- * Return: 1 if positive, 0 if zero, -1 if negative
+ * Return: 1 if true, 0 if false
  */
-int print_sign(int n)
+int _isalpha(int c)
 {
-	if (n > 0)
+	int i = isalpha(c);
+	if (i > 0)
 	{
-		_putchar('+');
-
 		return (1);
 	}
-	if (n == 0)
+	else
 	{
-		_putchar('0');
 		return (0);
 	}
-	_putchar('-');
-	return (-1);
 }
+
