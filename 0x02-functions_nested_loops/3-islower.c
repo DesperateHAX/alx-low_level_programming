@@ -1,6 +1,8 @@
 #include"main.h"
 /**
- *
+ * _islower - main function
+ * @c: character to compare
+ *Return: returns 1 if `c` is lowercase and  always 0 (Success)
  */
 int _islower(int c)
 {
