@@ -9,14 +9,14 @@ int main(void)
 
 {
 
-		char ouput[] = "_putchar";
+		char output[] = "_putchar";
 
 		int i = 0;
 
 
 		for (i < 8; ++i)
 
-			_putchar(str[i]);
+			_putchar(output[i]);
 
 		_putchar('\n');
 		return (0);
