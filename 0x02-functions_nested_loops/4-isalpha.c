@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include "main.h"
 /**
  * print_sign - main function
@@ -7,6 +8,7 @@
 int _isalpha(int c)
 {
 	int i = isalpha(c);
+
 	if (i > 0)
 	{
 		return (1);
