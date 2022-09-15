@@ -1,21 +1,29 @@
 #include <stdio.h>
 /**
- * numLength - returns the lenth of string
- * @num : operand number
- * Return: number of digits
+ * main  - Entry point
+ * Description: Prints the sum of even-valued
+ *		Fibonacci sequence not exceed
+ *		4million
+ * 
+ * Return: Always 0 (Success)
  */
-int numLength(int num)
+int main(void)
 {
-	int length = 0;
+	unsigned long fib1 = 0, fib2 = 1, sum;
+	float total_sum;
 
-	if (!num)
-	{	return (1);
-
-	}
-	while (num)
+	while (1)
 	{
-		num = num / 10;
-		length += 1;
+		sum = fib1 + fib2;
+		if (sum > 4000000)
+			break;
+		if ((sum % 2) == 0)
+			total_sum += sum;
+		fib1 = fib2;
+		fib2 = sum;
 	}
-	return (length);
+	printf("%.0f\n", total_sum);
+
+	return (0);
 }
+
