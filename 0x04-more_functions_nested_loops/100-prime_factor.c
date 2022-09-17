@@ -10,12 +10,20 @@
 
 int main(void)
 {
-	unsigned long int i, n = 612852475143
-		for (i = 3; i < 782849; i = i + 2)
+	unsigned long int  n = 612852475143;
+	unsigned int a = 2;
+
+	while (a != n)
+	{
+		if (n % a == 0)
 		{
-			while ((n % i == 0) && (n != i))
-				n = n / i;
+			n = n / a;
+		} else
+		{
+			a++;
 		}
-		printf("%lu\n", n);
-		return (0);
+	}
+
+	printf("%lu\n", n);
+	return (0);
 }
