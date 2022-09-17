@@ -14,7 +14,6 @@
 
 
 void print_triangle(int size)
-
 {
 	int row, hashes, spaces;
 
