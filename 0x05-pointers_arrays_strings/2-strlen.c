@@ -4,7 +4,7 @@
  * @s: A pointer that evaluates a string
  * Return: Always 0
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int i = 0;
 
