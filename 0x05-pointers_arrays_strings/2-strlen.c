@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 2-strlen - Calculating the lenghth of a string
+ * _strlen - Calculating the lenghth of a string
  * @s: A pointer that evaluates a string
  * Return: Always 0
  */
