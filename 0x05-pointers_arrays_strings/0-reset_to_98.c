@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * reset_to_98-takes apointer and assings the value 98
- * @n:  poiner 
+ * @n:  poiner
 * Return: void
 */
 
