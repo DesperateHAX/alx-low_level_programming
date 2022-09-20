@@ -2,7 +2,7 @@
 
 #include "2-strlen.c"
 /**
- * puts_half -we are  puttting half of int
+ * puts2 -we are  puttting half of int
  * @str: string to split
  */
 void puts2(char *str)
