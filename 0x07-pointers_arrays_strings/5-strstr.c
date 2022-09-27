@@ -1,30 +1,47 @@
 /**
- * print_chessboard - print a chessboard
+ * _strstr - a function that locates a substring
  *
- * @a: array
+ * @haystack: input string to search for matching
+ *            substrings
+ * @needle: subtring to search for
  *
- * Return: void
- *
+ * Return: a pointer to the beginning
+ *         of the located substring or
+ *         NULL if substring is not found
  */
 
-void print_chessboard(char (*a)[8])
+char *_strstr(char *haystack, char *needle)
 
 {
+	char *h, *n;
 
-	int i, j;
-
-
-
-	for (i = 0; a[i][7]; i++)
+	while (*haystack != '\0')
 
 	{
 
-		for (j = 0; j < 8; j++)
+		h = haystack;
 
-			putchar(a[i][j]);
+		n = needle;
 
-		putchar('\n');
+		while (*n != '\0' && *haystack == *n)
+
+		{
+
+			haystack++;
+
+			n++;
+
+		}
+
+		if (!*n)
+
+			return (h);
+
+		haystack++;
 
 	}
+
+	return ('\0');
+}
 
 }
