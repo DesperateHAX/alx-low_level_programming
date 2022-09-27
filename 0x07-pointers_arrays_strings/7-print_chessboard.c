@@ -3,9 +3,7 @@
 #include <stdio.h>
 /**
  * print_chessboard - print a chessboard
- *
  * @a: array
- *
  * Return: void
  */
 
@@ -13,11 +11,11 @@ void print_chessboard(char (*a)[8])
 
 {
 
-	int i, j;
+	int i;
+	int j;
 
 
-
-	for (i = 0; a[i][7]; i++)
+	for (i = 0; i < 8; i++)
 
 	{
 
